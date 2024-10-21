@@ -1,0 +1,97 @@
+/* Global styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    margin: 0;
+    text-align: center;
+}
+
+header {
+    background-color: #4a4e69;
+    color: white;
+    padding: 20px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-size: 2rem;
+    margin: 0;
+}
+
+input#searchBar {
+    padding: 10px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    width: 50%;
+}
+
+main {
+    margin-top: 20px;
+}
+
+.player {
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    padding: 30px;
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    margin-left: 95px;
+    transition: transform 0.3s ease;
+}
+
+h2 {
+    font-size: 1.5rem;
+    margin: 10px 0;
+    color: #222;
+}
+
+h3 {
+    font-size: 1.2rem;
+    color: #777;
+}
+
+.controls {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+button {
+    background-color: #4a4e69;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #9a8c98;
+}
+
+input#volumeControl {
+    margin-top: 20px;
+    width: 80%;
+    cursor: pointer;
+}
+
+audio {
+    margin-top: 20px;
+    width: 100%;
+    border-radius: 5px;
+}

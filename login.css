@@ -1,0 +1,96 @@
+/* General styling for login container */
+.login-container {
+    background-color: #b5b5ee;
+    padding: 20px;
+    width: 300px;
+    margin: 100px auto;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    font-family: 'Cambria', serif;
+}
+
+h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.input-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    text-align: left;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.btn-login {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.btn-login:hover {
+    background-color: #45a049;
+}
+
+.error-message {
+    color: red;
+    font-size: 14px;
+}
+
+#toggleText {
+    margin-top: 10px;
+}
+
+/* External Links Section */
+.external-links {
+    margin-top: 30px;
+    text-align: center;
+}
+
+#buttonextra {
+    background-color: #f0f0f0;
+    color: #1f2626;
+    padding: 10px 20px;
+    border: none;
+    margin: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    display: inline-block;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#buttonextra i {
+    margin-right: 10px;
+}
+
+#buttonextra:hover {
+    background-color: #d6d6d6;
+}
+
+/* Font Awesome Icon Sizing */
+.fab {
+    font-size: 18px;
+    color: #ff0000; /* Default color for icons */
+}

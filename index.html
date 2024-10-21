@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Streaming App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   
+    <header>
+        <h1>My Music App</h1>
+        <input type="text" id="searchBar" placeholder="Search for music...">
+    </header>
+
+    <main>
+
+        <div class="player">
+            <img id="albumArt1" src="images/music.png" alt="Album Cover 1" 
+                 onmouseover="this.style.transform = 'scale(1.1)';" 
+                 onmouseout="this.style.transform = 'scale(1)';" 
+                 style="transition: transform 0.3s ease;">
+            
+            <img id="albumArt2" src="images/music2.png" alt="Album Cover 2" 
+                 onmouseover="this.style.transform = 'scale(1.1)';" 
+                 onmouseout="this.style.transform = 'scale(1)';" 
+                 style="transition: transform 0.3s ease;">
+            
+            <h2 id="songTitle">Song Title</h2>
+            <h3 id="artistName">Artist Name</h3>
+
+            <audio id="audioPlayer" controls>
+                <source id="audioSource" src="songs/friends-235450.mp3" type="audio/mpeg">
+            </audio>
+
+            <div class="controls">
+                <button id="prevBtn">Previous</button>
+                <button id="playPauseBtn">Play</button>
+                <button id="nextBtn">Next</button>
+            </div>
+
+        </div>
+    </main>
+    <a href="login.html">login the page to get connected with other websites...</a>
+
+     <!-- Footer Section -->
+     <footer class="footer">
+        <p>&copy; <span id="currentYear"></span> MUSIC PLAYER... All rights reserved. | Contact: <a href="mailto:chaitanyaas96@gmail.com">@chaitanyaas96@gmail.com</a></p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
