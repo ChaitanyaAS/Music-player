@@ -1,0 +1,19 @@
+Music Streaming App
+
+A simple and interactive music streaming application that allows users to listen to their favorite tracks, create playlists, and explore new music. This app is designed for music enthusiasts and serves as a foundation for further enhancements and features.
+
+Features
+
+- **User Authentication**: Users can register and log in to access personalized features.
+- **Playlist Creation**: Users can create and manage their own playlists.
+- **Music Search**: Search functionality to find specific tracks or artists.
+- **External Links**: Quick access to popular music platforms like YouTube, Spotify, and Google.
+- **Responsive Design**: Works on various screen sizes, ensuring a seamless experience on both desktop and mobile devices.
+
+Technologies Used
+
+- **Frontend**: HTML, CSS, JavaScript
+- **Version Control**: Git and GitHub for version management.
+
+This was a quick review of teh html, css and javascript working in short period of time.
+QUICK RECAP OF TOPICS BY THIS PROJECT.
